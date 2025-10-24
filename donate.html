@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate | KindKart</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <script type="module" src="script1.js" defer></script>
+  
+</head>
+<body>
+  <header>
+    <h1>💖 KindKart</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="donate.html">Donate</a>
+      <a href="browse.html">Browse</a>
+    </nav>
+  </header>
+
+  <main class="form-page">
+    <h2>Donate an Item</h2>
+    <form id="donateForm">
+      <label>Item Name:</label>
+      <input type="text" id="itemName" required>
+
+      <label>Category:</label>
+      <select id="category">
+        <option>Clothes</option>
+        <option>Books</option>
+        <option>Stationery</option>
+        <option>Utensils</option>
+        <option>Others</option>
+      </select>
+
+      <label>Description:</label>
+      <textarea id="description" rows="3"></textarea>
+
+      <label>Location (City or Area):</label>
+      <input type="text" id="location" required>
+
+      <label>Contact Info:</label>
+      <input type="text" id="contact" placeholder="Email or phone" required>
+
+      <button type="submit" class="btn">Submit Donation</button>
+    </form>
+
+    <p id="msg"></p>
+  </main>
+
+  <footer>
+    <p>💚 KindKart – Donate Essentials, Not Just Money</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f8fafc;
+  color: #222;
+}
+
+header {
+  background: #ffdad6;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #d6336c;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.home h2 {
+  color: #d6336c;
+}
+
+.buttons {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  background: #d6336c;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #d6336c;
+  color: #d6336c;
+}
+
+.form-page {
+  max-width: 400px;
+  margin: auto;
+  text-align: left;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button.btn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  margin-top: 2rem;
+  background: #ffdad6;
+  padding: 1rem;
+  text-align: center;
+}
+.badge {
+  display: inline-block;
+  margin-top: 10px;
+  background: #d1f7d6;
+  color: #067d1f;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: bold;
+}
